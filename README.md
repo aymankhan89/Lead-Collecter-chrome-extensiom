@@ -1,19 +1,103 @@
-# Getting Started
-Install the dependencies and run the project
+
+
+# Lead Collector Chrome Extension
+
+This is a simple **Chrome Extension** built to collect and save leads directly from web pages. It allows users to store useful URLs or contact information with a single click.
+
+> 🧠 **Note:** This is my **second web development project** and my **first Chrome extension**. I'm learning by building!
+
+---
+
+## 🚀 Features
+
+- ✅ Save the current tab's URL as a lead
+- ✅ View a list of collected leads
+- ✅ Store leads in localStorage (data persists even after browser refresh)
+- ✅ Clean and minimal UI
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- Chrome Extensions API (Manifest v3)
+
+---
+
+## 📁 Project Structure
+
 ```
-npm install
-npm start
+
+Lead-Collecter-chrome-extensiom/
+├── manifest.json          # Extension configuration
+├── popup.html             # UI for the popup window
+├── popup.js               # JavaScript logic for popup
+├── style.css              # Styling for popup
+├── icons/                 # Extension icons (128x128 etc.)
+└── README.md              # Project details
+
+````
+
+---
+
+## 📦 Installation (For Testing Locally)
+
+1. Clone or download this repository:
+   ```bash
+   git clone https://github.com/aymankhan89/Lead-Collecter-chrome-extensiom.git
+
+
+2. Open Google Chrome and go to:
+
+   ```
+   chrome://extensions/
+   ```
+
+3. Enable **Developer Mode** (top-right corner)
+
+4. Click **"Load unpacked"** and select the project folder.
+
+5. The extension should now appear in your toolbar!
+
+---
+
+## 📚 What I Learned
+
+* How Chrome extensions work (manifest.json, background scripts, popup UI)
+* Handling local storage with JavaScript
+* DOM manipulation and UI updates
+* Packaging and testing Chrome extensions
+
+---
+
+## 🎯 Future Improvements
+
+* Add export to CSV or Google Sheets
+* Sync leads to cloud storage
+* Add tagging and filtering features
+
+---
+
+## 📌 Notes
+
+This is a beginner project built to explore Chrome extensions. Feedback and suggestions are always welcome!
+
+---
+
+## 🙌 Credits
+
+Inspired by my curiosity and a need for quick URL-saving tools. Built with ♥ by [@aymankhan89](https://github.com/aymankhan89)
+
 ```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+---
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+Let me know if you want to:
+- Add screenshots or a live demo link
+- Localize it (e.g., Urdu version)
+- Make it more technical or add badges like "First Chrome Extension 🚀"
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+Want me to review your actual code to tailor this even more?
 
-Happy Coding!
